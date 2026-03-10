@@ -1,4 +1,4 @@
-import { Worker, QueueEvents, type Job } from '@bullmq/core';
+import { Worker, QueueEvents, type Job } from 'bullmq';
 import { getRedisClient } from '../lib/redis';
 import { getPrismaClient } from '../db/prismaClient';
 import { logger } from '../lib/logger';

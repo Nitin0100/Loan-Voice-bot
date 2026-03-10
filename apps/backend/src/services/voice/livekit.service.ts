@@ -1,4 +1,4 @@
-import { AccessToken } from '@livekit/server-sdk';
+import { AccessToken } from 'livekit-server-sdk';
 import WebSocket from 'ws';
 import { SttService, SttTranscript } from './stt.service';
 import { TtsService } from './tts.service';
