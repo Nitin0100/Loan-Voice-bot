@@ -12,3 +12,6 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*
+
+.next/
+apps/*/.next/
