@@ -1,0 +1,19 @@
+{
+  "name": "voice-loan-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production-grade AI Voice Calling Assistant for loan advisory.",
+  "scripts": {
+    "build": "echo \"Use per-app build scripts\"",
+    "lint": "echo \"Add root lint if needed\"",
+    "test": "echo \"Add root tests if needed\""
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT"
+}
